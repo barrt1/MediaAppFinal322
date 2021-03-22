@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MediaAppFinal.Views.LoginPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid VerticalOptions="CenterAndExpand" Margin="20" RowSpacing="20">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Entry Placeholder="UserName" x:Name="EntryUser" Grid.Row="0"/>
+                    <Entry Placeholder="Password" x:Name="EntryPassword" IsPassword="True" Grid.Row="1"/>
+                    <Button Text="Login" Grid.Row="2" BackgroundColor="#23cad0" TextColor="Black" Clicked="Handle_Clicked_1" />
+                    <Button Text="SignUp" Grid.Row="3" BackgroundColor="#874bd1" Clicked="Handle_Clicked"/> 
+                    
+
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MediaAppFinal.Views.HomePage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+        <Button Text="Movies" Clicked="Button_Clicked1"   TextColor="White" BackgroundColor="DarkViolet"/>
+        <Button Text="Tv Shows" Clicked="Button_Clicked2"  TextColor="Black"  BackgroundColor="Aquamarine"/>
+        <Button Text="Games" Clicked="Button_Clicked3"  TextColor="Black" BackgroundColor="Aqua"/>
+        <Button VerticalOptions="EndAndExpand" Text="Logout"  Clicked="Button_Clicked"  TextColor="Black"  BackgroundColor="Gray"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
